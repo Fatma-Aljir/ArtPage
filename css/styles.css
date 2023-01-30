@@ -1,27 +1,56 @@
-/* styled using tag*/
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-/*styled using id */
+#item1{
+
+      grid-area: item1;
+      padding: 10px;
+      margin: 10px;
+    }
+    #item2{
+
+      grid-area: item2;
+      padding: 10px;
+      margin: 10px;
+    }
+    #item3{
+     ;
+      grid-area: item3;
+      padding: 10px;
+      margin: 10px;
+    }
+    #item4{
+
+      grid-area: item4;
+      padding: 10px;
+      margin: 10px;
+    }
+    #item5{
+        grid-area: item5;
+        padding: 10px;
+      margin: 10px;
+    }
+.grid-container{
+      display: grid;
+      grid-template-areas:
+           'item1 item1 item1 item1 item1 item1 item1'
+           'item2 item2 item2 item2 item2 item2 item2'
+           'item3 item3 item4 item4 item4 item5 item5'
+
+    ;
+    }
 #image1{
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    opacity: 50%;
+    position: center;
+    display: block;
+    margin: auto;
 }
-/*styled using class */
-.image2{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid chartreuse;
-}
+
+ @media only screen and (max-width: 600px) {
+
+     .grid-container {
+         display: grid;
+         grid-template-areas:
+        'item1 item2 item2 item2 item2 item2 item2'
+        'item3 item3 item3 item3 item3 item3 item3'
+        'item4 item4 item4 item4 item4 item4 item4'
+        'item5 item5 item5 item5 item5 item5 item5'
+
+     }
+ }

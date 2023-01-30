@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <title>Art Homepage</title>
+</head>
+<body>
+<p>Hello world</p>
+<a href="public/about.html"> internal link : Go to about.html</a>
+<a href="https://www.google.com" target="_blank">External link : goes to other hosted webpages</a>
+<h1>Heading</h1>
+<h2>Heading</h2>
+<h3>Heading</h3>
+<h4>Heading</h4>
+<h5>Heading</h5>
+<h6>Heading</h6>
+<ol>
+    <h4>Premier league tables</h4>
+    <li> <a href="www.arsenal.com"> arsenal</a></li>
+    <li>Man city</li>
+    <li>Liverpool</li>
+</ol>
+
+<ul>
+    <li>carrots</li>
+    <li>bananas</li>
+    <li>cabbage</li>
+</ul>
+
+
+
+
+
+<img src="assats/image" width="200" height="200">
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>ID Number</th>
+        <th>D.O.B</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>joseph</td>
+        <td>xxxxxxxxx</td>
+        <td>20th November</td>
+    </tr>
+      <tr>
+        <td>miriam</td>
+        <td>xxxxxxxxx</td>
+        <td>20th November</td>
+    </tr>
+      <tr>
+        <td>john</td>
+        <td>xxxxxxxxx</td>
+        <td>20th November</td>
+    </tr>
+
+
+
+    </tbody>
+</table>
+</body>
+</html>
